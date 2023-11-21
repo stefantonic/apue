@@ -5,7 +5,7 @@
 <br><br>
 <p align="center">
     <h1 align="center">napredno programiranje u unix sredini</h1>
-    <p align="center">ovaj projekat sadrzi kompleksni softver sistemskog-nivoa c programskog jezika kroz cije se primere stice intimno razumevanje unix operativnog sistema(kao i svih drugih operativnih sistema koji pripadaju ovoj familji: poput linuxa, bsd-a pa i mac os x-a) , "teme" programa koje projekat sadrzi ukljucuju user/kernel interfejs, osnovne koncepte unix-a, korisnicku autentikaciju, osnoni i napredni i/o, filesystem-e signale, procesne veze kao i osnovne koncepte softverskog razvoja i odrzavanje unix sistema(razvijanje i alatki za debuggovanje kao sto su "make" i "gdb"</p>
+    <p align="center">ovaj projekat sadrzi kompleksni softver(sistemskog-nivoa) c programskog jezika kroz cije se primere stice intimno razumevanje unix operativnog sistema(kao i svih drugih operativnih sistema koji pripadaju ovoj familji: poput linuxa, bsd-a pa i mac os x-a) , "teme" programa koje projekat sadrzi ukljucuju user/kernel interfejs, osnovne koncepte unix-a, korisnicku autentikaciju, osnoni i napredni i/o, filesystem-e signale, procesne veze kao i osnovne koncepte softverskog razvoja i odrzavanje unix sistema(razvijanje i alatki za debuggovanje kao sto su "make" i "gdb"</p>
 </p>
 
 <p align="center">
