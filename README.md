@@ -12,11 +12,15 @@
   <img src="https://i.imgur.com/UgCEqZ6.png" />
 </p>
 
-
-
-
 ## Instalacija
-
+`git clone https://github.com/stefantonic/apue.git`<br>
+or<br>
+`wget http://www.apuebook.com/src.3e.tar.gz`<br>
+`sudo apt-get install libbsd-dev`<br>
+<br>
+`make`<br> 
+or <br>
+`make clean`
 
 ## Licenca
 [![Creative Commons License](https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-nd/4.0/)
