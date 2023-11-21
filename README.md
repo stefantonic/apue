@@ -20,7 +20,7 @@
 `make clean`<br>
 
 ### Poteskoce sa makefile-om?
-`~/src/code$ sudo cp ../apue.3e/include/apue.h /usr/include/`
+`~/src/code$ sudo cp ../apue.3e/include/apue.h /usr/include/`<br>
 `~/src/code$ sudo cp ../apue.3e/lib/libapue.a /usr/lib/`
 
 ## Licenca
