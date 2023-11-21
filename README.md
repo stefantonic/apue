@@ -13,9 +13,10 @@
 </p>
 
 ## Resursi
-`Advanced Programming in the UNIX® Environment, Third Edition`
-`Unix Programmer’s Manual`
-`The GNU C Reference Manual`
+`Advanced Programming in the UNIX® Environment, Third Edition`<br>
+`Unix Programmer’s Manual`<br>
+`The GNU C Reference Manual`<br>
+`Google...`
 
 ## Instalacija
 `git clone https://github.com/stefantonic/apue.git`<br>
