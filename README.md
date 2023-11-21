@@ -14,12 +14,9 @@
 
 ## Instalacija
 `git clone https://github.com/stefantonic/apue.git`<br>
-or<br>
 `wget http://www.apuebook.com/src.3e.tar.gz`<br>
 `sudo apt-get install libbsd-dev`<br>
-<br>
 `make`<br> 
-or <br>
 `make clean`
 
 ## Licenca
