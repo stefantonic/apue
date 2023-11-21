@@ -1,0 +1,54 @@
+#makefile specifies a set of compilation rules in terms of
+#`targets`, `executables` and their dependencies obj files and source
+
+#this makefiles contains definitions required in all program directories
+#in order to compile and link
+#i added short explanations(comments), you can read up more online
+#by going through the each rule(command)
+
+#simplest way to define a variable in makefile is to use the = 
+#cc = gcc is assigning gcc to cc
+#[gcc](https://gcc.gnu.org/) is compiler
+CC=gcc
+
+#root of the macro name(COMPILE) is a convention used to indicate
+#compilation command line(generate .o(object) file
+#.c indicates where command line applies to
+#$(CFLAGS) and $(CPPFLAGS) specify additional switches to be passed to compiler
+COMPILE.c=$(CC) $(CFLAGS) $(CPPFLAGS) -c
+
+#basic cc command line to link object files, such as COMPILE.c
+#CFLAGS contains compiler directives/options
+#LDFLAGS is a list of link(or load) directives
+LINK.c=$(CC) $(CFLAGS) $(CPPFLAGS) $(LDFLAGS)
+LDFLAGS=
+#L options tells the linker to add path to the list it uses for search libraries 
+LDDIR=-L$(ROOT)/lib
+#included /lib linked with -l apue.h and extra libraries
+LDLIBS=$(LDDIR) -lapue $(EXTRALIBS)
+
+#CFLAGS sets options now with -ansi(-std=version)
+#D is a statment for #define which we can use for #ifdef LINUX(1)
+#because it is probable that the usage of this projects source code
+#will be restricted to gnu\linux unsless further efforts are made 
+#to make such functionality portable on other platforms
+#_GNU_SOURCE makes use of GNU extensions
+CFLAGS=-ansi -I$(ROOT)/include -Wall -DLINUX -D_GNU_SOURCE $(EXTRA)
+#ranlib command and selecting the -D option alter the mode of operation
+#deterministic and create an index of the archive's contents
+#(which is than saved within the archive)
+#when archive has an index, it speeds up the linking process to the library
+#it also allows routines in the library to call each other without needing
+#to consider their position in the archive
+RANLIB=echo
+#ar is archiver(unix utility) that maintains group of files as a single archive
+AR=ar
+#awk is shell script widely used command for text processing
+#we can select data - one or more pieces of individual text
+AWK=awk
+#directory to our static library file
+LIBAPUE=$(ROOT)/lib/libapue.a
+
+#common temp files to delete from each directory
+#core contains information about programs state when it crashed
+TEMPFILES=core core.* *.o temp.* *.out
