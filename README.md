@@ -17,7 +17,11 @@
 `wget http://www.apuebook.com/src.3e.tar.gz`<br>
 `sudo apt-get install libbsd-dev`<br>
 `make`<br> 
-`make clean`
+`make clean`<br>
+
+### Poteskoce sa makefile-om?
+`~/src/code$ sudo cp ../apue.3e/include/apue.h /usr/include/`
+`~/src/code$ sudo cp ../apue.3e/lib/libapue.a /usr/lib/`
 
 ## Licenca
 [![Creative Commons License](https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-nd/4.0/)
