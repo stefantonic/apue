@@ -12,6 +12,11 @@
   <img src="https://i.imgur.com/UgCEqZ6.png" />
 </p>
 
+## Resursi
+`Advanced Programming in the UNIX® Environment, Third Edition`
+`Unix Programmer’s Manual`
+`The GNU C Reference Manual`
+
 ## Instalacija
 `git clone https://github.com/stefantonic/apue.git`<br>
 `wget http://www.apuebook.com/src.3e.tar.gz`<br>
