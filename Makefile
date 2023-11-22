@@ -6,8 +6,8 @@ DIRS = intro lib
 #all includes all within directory and sub directories
 #for i(iterate) through included dirs, for each file, display making: name + make
 all:
-	for i in $(DIRS); do (cd $$i && echo "making: $$i" && $(MAKE)) || exit 1; done
+	@for i in $(DIRS); do (cd $$i && echo "making: $$i" && $(MAKE)) || exit 1; done
 #clean is optinal rile, it allows us to type make clean to get rid of
 #objects and executable files
 clean:
-	for i in $(DIRS); do (cd $$i && echo "making: $$i" && $(MAKE) clean) || exit 1; done
+	@for i in $(DIRS); do (cd $$i && echo "making: $$i" && $(MAKE) clean) || exit 1; done
