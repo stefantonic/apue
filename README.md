@@ -19,9 +19,9 @@
 `Google...`
 
 na masini koja pokrece<br>
-`ubuntu 22.04.3`
-`gnu make 4.3`
-`gcc 11.4.0`
+`ubuntu 22.04.3`<br>
+`gnu make 4.3`<br>
+`gcc 11.4.0`<br>
 
 
 ## Instalacija
