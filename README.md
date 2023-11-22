@@ -18,6 +18,12 @@
 `The GNU C Reference Manual`<br>
 `Google...`
 
+na masini koja pokrece<br>
+`ubuntu 22.04.3`
+`gnu make 4.3`
+`gcc 11.4.0`
+
+
 ## Instalacija
 `git clone https://github.com/stefantonic/apue.git`<br>
 `wget http://www.apuebook.com/src.3e.tar.gz`<br>
