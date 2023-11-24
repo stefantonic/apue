@@ -12,7 +12,7 @@ include $(ROOT)/Make.defines.$(PLATFORM)
 LIBMISC	= libapue.a
 
 #needs to be updated as we write more programs
-OBJS   = \
+OBJS   = error.o \
 
 #includes all within directory and sub directories of ../lib/libapue.a
 all:	$(LIBMISC)
