@@ -25,7 +25,7 @@ main(int argc, char *argv[])
         err_quit("usage: ls directory_name");
 
     if ((directory_stream = opendir(argv[1])) == NULL)
-        err_sys("usage: unavailable %s", argv[1]);
+        err_sys("usage: unavailable %s\n", argv[1]);
 
 /*  d_name is of unspecified size, contains filename at most {NAME_MAX]
  *  bytes followed by a terminating NULL
