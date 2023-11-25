@@ -29,7 +29,6 @@ na masini koja pokrece<br>
 `wget http://www.apuebook.com/src.3e.tar.gz`<br>
 `sudo apt-get install libbsd-dev`<br>
 `make` ako ne radi: `make clean` prvo, pa onda `make` <br> 
-`make clean`<br>
 
 ### Poteskoce sa makefile-om?
 `~/src/code$ sudo cp ../apue.3e/include/apue.h /usr/include/`<br>
