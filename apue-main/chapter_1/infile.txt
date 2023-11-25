@@ -1,1 +1,0 @@
-bare-bones "cat" emulation without all the "options"
