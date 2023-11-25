@@ -28,7 +28,7 @@ na masini koja pokrece<br>
 `git clone https://github.com/stefantonic/apue.git`<br>
 `wget http://www.apuebook.com/src.3e.tar.gz`<br>
 `sudo apt-get install libbsd-dev`<br>
-`make`ako ne radi: `make clean` prvo, pa onda `make` <br> 
+`make` ako ne radi: `make clean` prvo, pa onda `make` <br> 
 `make clean`<br>
 
 ### Poteskoce sa makefile-om?
