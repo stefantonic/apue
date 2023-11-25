@@ -1,1 +1,1 @@
-bare-bones unix/linux "cat" emulation without "options"
+bare-bones "cat" emulation without all the "options"
