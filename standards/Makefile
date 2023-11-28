@@ -10,6 +10,8 @@ all:	$(PROGS)
 
 c_1: c_1.c
 
+#this will overwrite your c_1 file
+#but i included it just for the sake of learning
 #c_1.c: gnu-awk.awk
 #	$(AWK) -f gnu-awk.awk >c_1.c
 
