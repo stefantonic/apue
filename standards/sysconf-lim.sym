@@ -1,0 +1,65 @@
+#maximum lenght of arguments to the exec() family of functions
+#must NOT be less than _POSIX_ARG_MAX(4096)
+ARG_MAX     _SC_ARG_MAX
+
+#maximum number of simultaneous processes per user ID
+#must NOT be less than _POSIX_ARG_MAX(25)
+CHILD_MAX   _SC_CHILD_MAX
+
+#maximum lenght of a hostname, not including the terminating null byte
+#as returned by gethostname()
+#must NOT be less than _POSIX_HOST_NAME_MAX(255)
+HOST_NAME   _SC_HOST_NAME_MAX
+
+#maximum lenght of a login name, including the terminating null byte
+#must NOT be less than _POSIX_LOGIN_NAME_MAX(9)
+LOGIN_NAME_MAX   _SC_LOGIN_NAME_MAX
+
+#maximum number of supplementary group IDs
+NGROUPS_MAX     _SC_NGROUPS_MAX
+
+#maximum number of clock ticks per second
+#corresponding variable is obsolete
+                _SC_CLK_TCK
+
+#maximum number of files that a process can have open at any time
+#must NOT be less than _POSIX_OPEN_MAX(20)
+OPEN_MAX    _SC_OPEN_MAX
+
+#size of page in bytes
+#must NOT be less than 1
+PAGESIZE    _SC_PAGESIZE
+
+#synonim for pagesize
+PAGE_SIZE   _SC_PAGE_SIZE
+
+#number of repeated occurances of a BRE
+#permitted by regexec() and regcomp()
+#must NOT be less thatn _POSIX2_RE_DUP_MAX(255)
+RE_DUP_MAX  _SC_RE_DUP_MAX
+
+#maximum number of streams that a process can have open at any time
+#if defined it has the same value as the standard c macro FOPEN_MAX
+#must NOT be less than _POSIX_STREAM_MAX(8)
+STREAM_MAX  _SC_STREAM_MAX
+
+#maximum number of symbolic links seen in a pathname
+#before resolution returns ELOOP
+#must NOT be less than _POSIX_SYMLOOP_MAX(8)
+SYMLOOP_MAX _SC_SYMLOOP_MAX
+
+#maximum lenght of terminal device name, including the terminating null byte
+#must NOT be less than _POSIX_TTY_NAME_MAX(9)
+TTY_NAME_MAX    _SC_TTY_NAME_MAX
+
+#maximum number of bytes in a timezone name
+#must NOT be less than _POSIX_TZNAME_MAX(6)
+TZNAME_MAX      _SC_TZNAME_MAX
+
+#indicates the year and month of the POSIX.1 standard
+#was approved in the format YYYYMML; the value 199009L
+#indicates sept. 1990 revision
+_POSIX_VERSION  _SC_VERSION
+
+#POSIX.2 variables...
+#add here

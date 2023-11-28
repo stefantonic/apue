@@ -1,0 +1,65 @@
+#minimum number of bytes of storage...
+#actually allocated for any portion of a file
+ALLOC_SIZE_MIN      _PC_ALLOC_SIZE_MIN
+
+#defined if asynchronous io is supported for the file
+ASYNC_IO            _PC_ASYNC_IO
+
+#if the filesystem is sensitive to the case in file names or 0 if it isn't
+#if this function indicates an error of EINVAL, you shouldn't make any 
+#assumptions about the filesystem behaviour
+CASE_PRESERVING     _PC_CASE_PRESERVING
+
+#1 if the filesystem is sensitive to case in file names
+#0 if it isn't
+CASE_SENSITIVE      _PC_CASE_SENSITIVE
+
+#chown() function restricted to a process with root privileges??
+CHOWN_RESTRICTED    _PC_CHOWN_RESTRICTED
+
+#minimum number of bits needed to represent as signed int value
+#maximum size of a regular file allowed in the specified directory
+FILESIZEBITS        _PC_FILESIZEBITS
+
+#defined (not -1)
+LINK_DIR            _PC_LINK_DIR
+
+#maximum value of a files link count
+LINK_MAX            _PC_LINK_MAX
+
+#maximum number of bytes in terminals canonical input buffer(edit buffer)
+MAX_CANON           _PC_LINK_CANON
+
+#maximum number of bytes in a file name(not including terminating null)
+NAME_MAX            _PC_NAME_MAX
+
+#maximum number of bytes in a pathname(including the terminating null)
+PATH_MAX            _PC_PATH_MAX
+
+#maximum number of bytes that can be written automically when writing to a pipe
+PIPE_BUF            _PC_PIPE_BUF
+
+#prioritized io is supported for the file
+PRIO_IO             _PC_PRIO_IO
+
+#increment file transfer sizes between min and max
+REC_INCR_XFER_SIZE  _PC_REC_INCR_XFER_SIZE
+
+#maximum recommend file transfer size
+REC_MAX_XFER_SIZE   _PC_REC_MAX_XFER_SIZE
+
+#minimum recommend file transfer size
+REC_MIN_XFER_SIZE   _PC_REC_MIN_XFER_SIZE
+
+#recommend file transfer buffer alignment
+REC_XFER_ALIGN      _PC_REC_XFER_ALIGN
+
+#maximum lenght in bytes of a symbolic link name
+SYMLINK_MAX         _PC_SYMLINK_MAX
+
+#synchronous io supported for the file
+SYNC_IO             _PC_SYNC_IO
+
+#char value which can be used to individually disable special control char
+#in termios control structure
+VDISABLE            _PC_VDISABLE
