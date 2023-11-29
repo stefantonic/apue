@@ -14,6 +14,7 @@
 
 ## Resursi
 `Advanced Programming in the UNIX® Environment, Third Edition`<br>
+`The Linux Programming Interface`<br>
 `Unix Programmer’s Manual`<br>
 `The GNU C Reference Manual`<br>
 `Google...`
