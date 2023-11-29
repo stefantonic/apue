@@ -34,6 +34,11 @@ main(int argc, char *argv[])
     #else
         printf("no symbol for _PC_MAX_CANON\n");
     #endif
+    #ifdef _PC_PATH_MAX
+        print_pathconf("_PC_PATH_MAX =", argv[1], _PC_PATH_MAX);
+    #else
+        printf("no symbol for _PC_PATH_MAX\n");
+    #endif
 
     /* ADD MORE IF NEEDED */
 	exit(0);

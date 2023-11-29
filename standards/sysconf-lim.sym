@@ -1,6 +1,6 @@
 #maximum lenght of arguments to the exec() family of functions
 #must NOT be less than _POSIX_ARG_MAX(4096)
-ARG_MAX     _SC_ARG_MAX
+_SC_ARG_MAX
 
 #maximum number of simultaneous processes per user ID
 #must NOT be less than _POSIX_ARG_MAX(25)
