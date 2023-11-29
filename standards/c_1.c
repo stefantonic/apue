@@ -10,23 +10,25 @@ main(int argc, char *argv[])
 {
 	if (argc != 2)
 		err_quit("usage: a.out <dirname>");
-
+    /*
     #ifdef ARG_MAX
 	    printf("ARG_MAX defined to be %ld\n", (long)ARG_MAX);
     #else
 	    printf("no symbol for ARG_MAX\n");
     #endif
+    */
     #ifdef _SC_ARG_MAX
 	    print_sysconf("_SC_ARG_MAX =", _SC_ARG_MAX);
     #else
 	    printf("no symbol for _SC_ARG_MAX\n");
     #endif
-
+    /*
     #ifdef MAX_CANON
         printf("MAX CANON defined to be %ld\n", (long)MAX_CANON+0);
     #else
         printf("no symbol for MAX_CANON\n");
     #endif
+    */
     #ifdef _PC_MAX_CANON
         print_pathconf("_PC_MAX_CANON =", argv[1], _PC_MAX_CANON);
     #else
