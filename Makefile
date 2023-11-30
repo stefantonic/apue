@@ -1,7 +1,7 @@
 #!/bin/bash
 #dirs(filenames along with it's attributes), has to be updated as we add more
 #for now, apue-master only has .c files followed by makefiles in intro and lib
-DIRS = chapter_1 lib standards
+DIRS = chapter_1 chapter_3 lib standards
 
 #all includes all within directory and sub directories
 #for i(iterate) through included dirs, for each file, display making: name + make
