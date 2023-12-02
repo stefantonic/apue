@@ -4,7 +4,7 @@
 </p>
 <br><br>
 <p align="center">
-    <h1 align="center">napredno programiranje u unix sredini</h1>
+    <h1 align="center"></h1>
     <p align="center"></p>
 </p>
 
